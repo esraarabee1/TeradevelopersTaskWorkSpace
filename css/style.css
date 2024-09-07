@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+/*
+.ramabhadra-regular {
+  font-family: "Ramabhadra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-wrap: wrap;
+}
+/*----header----*/
+
+.header{
+    background: #334756;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 120px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px ;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: #D6D6D6;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*----------------HERO-----------------*/
+
+.hero-section{
+    padding-top:  69px;
+    padding-bottom:  69px;
+}
+
+.hero-section .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6{
+    width: 50%;
+    padding-left: 20pxpx;
+    padding-right: 20pxpx;
+}
+
+.content-item{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-item h1{
+    color: #334756;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+span{
+    color:#FF4C29;
+}
+
+.content-item .para-1{
+    color: #667580;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ancors{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.ancors .ancor-1{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family:"Ramabhadra", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #FF4C29;
+    background: #FF4C29;
+    min-width: 284px;
+    padding: 16px 24px;
+    flex: 1;
+    line-height: 100%;
+}
+
+.ancors .ancor-1:hover{
+    background-color: #FFF ;
+    color: #334756;
+}
+
+.ancors .ancor-2{
+    text-decoration: none;
+    min-width: 284px;
+    padding: 16px 24px;
+    border-radius: 4px;
+    border: 1px solid #667580;
+    color: #334756;
+    text-align: center;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    flex: 1;
+    line-height: 100%;
+}
+
+.ancors .ancor-2:hover{
+    background: #FF4C29;
+    color: #FFF;
+}
+
+.img-item{
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*----------------------section-2--------------*/
+
+.section-2{
+    background: #F6F6F6;
+    background-image: url("../images/sec-img-2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.section-2 .container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    
+}
+
+.heading-2{
+    color: #334756;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.para-2{
+    color: #667580;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    max-width: 488px;
+}
+/*--------------section3--------------------*/
+
+.section-3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.col-6-2{
+    width: 50%;
+}
+
+.form{
+    background: #334756;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16px 48px;
+    gap: 40px;
+    min-height: 100%;
+} 
+
+.form h2{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+label{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.input-1{
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 56px;
+    outline: none;
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 2px;
+    background: #FFF;
+    border: none;
+    color: #667580;
+    font-family:"Ramabhadra", sans-serif;
+}
+
+select{
+    padding: 10px 16px;
+    border-radius: 2px;
+    background: #FFF;
+    border: none;
+    color: #667580;
+    font-family:"Ramabhadra", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 56px;
+    appearance: none;
+}
+
+.control{
+    position: relative;
+    width: 100%;
+}
+
+.icon{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+}
+
+.input-2{
+    padding: 8px 16px;
+    border-radius: 2px;
+    background: #FFF;
+    border: none;
+    color: #667580;
+    width: 100%;
+    font-family:"Ramabhadra", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+}
+
+.input-3{
+    min-height: 142px;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    background: #FFF;
+    color: #667580;
+    font-family:"Ramabhadra", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.btn-form {
+    padding: 16px 24px;
+    border-radius: 2px;
+    border: 1px solid #FF4C29;
+    background: #FF4C29;
+    color: #FFF;
+    text-align: center;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 100%;
+
+}
+
+.div-img{
+    height: 100%;
+}
+
+.div-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+/*------------section4-----------*/
+
+.section-4{
+    padding-top:25px;
+    padding-bottom: 150px;
+}
+
+.section-4 h2{
+    color: #334756;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.section-4 .row{
+    justify-content: center;
+}
+
+.col-5{
+    width: 41.6666%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.div-item{
+    background: #334756;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 29.2px;
+    padding-right: 29.2px;
+    position: relative;
+}
+
+.icon-2{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+
+.div-item p{
+    color: #FFF;
+    font-family:"Ramabhadra", sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Customer{
+    display: flex;
+    gap: 13px;
+    padding-bottom: 17px;
+    align-items: center;
+}
+
+.div-img-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.div-img-2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+.customer-name{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.customer-name h3{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.customer-name span{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*----------------section5--------------*/
+
+.section-5{
+    padding-top: 125px;
+    padding-bottom: 125px;
+    margin-bottom: 90px;
+    background: #F6F6F6;
+    background-image: url("../images/pict2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+}
+
+.section-5 .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div-content{
+    max-width: 488px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.heading-3{
+    color: #334756;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.para-3{
+    color: #667580;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+}
+/*------------FOOTER------------*/
+
+footer{
+    background-color: #334756;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 255px;
+}
+
+.logo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.div-1 p{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+.div-2{
+    display: flex;
+    gap: 64px;
+
+}
+
+.links{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    max-width: 230px;
+}
+
+.links h3{
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.list-item-2{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    list-style: none;
+    
+}
+
+.list-item-2 a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Ramabhadra", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}

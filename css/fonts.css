@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Ramabhadra';
+    src: url('../fonts/Ramabhadra.woff') format('woff'),
+        url('../fonts/Ramabhadra.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
