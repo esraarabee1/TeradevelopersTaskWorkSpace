@@ -1,6 +1,4 @@
-Here’s the modified version without mentioning responsiveness:
 
----
 
 # TeradeveloperWorkSpaceTask
 
