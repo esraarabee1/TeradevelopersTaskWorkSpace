@@ -16,7 +16,7 @@ A workspace page built using **HTML** and **CSS**, designed with **Flexbox** for
 
 ## 📸 Preview
 
-![Header and Home](images/headerandhero)
+![Header and Home](images/headerandhero.png)
 
 ![Section](images/sectionone.png)
 
@@ -26,7 +26,7 @@ A workspace page built using **HTML** and **CSS**, designed with **Flexbox** for
 
 ![Section](images/sectiontree.png)
 
-![Footer](imgs/footer.png)
+![Footer](images/footer.png)
 
 ## 📂 Technologies Used
 
