@@ -1,5 +1,3 @@
-
-
 # TeradeveloperWorkSpaceTask
 
 ## 🏢 WorkSpace Page
@@ -14,17 +12,7 @@ A workspace page built using **HTML** and **CSS**, designed with **Flexbox** for
 
 ## 📸 Preview
 
-![Header and Home](images/headerandhero.png)
-
-![Section](images/sectionone.png)
-
-![Section](images/form.png)
-
-![Section](images/review.png)
-
-![Section](images/sectiontree.png)
-
-![Footer](images/footer.png)
+![Header and Home](images/home.png)
 
 ## 📂 Technologies Used
 
